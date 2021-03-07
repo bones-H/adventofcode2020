@@ -198,13 +198,29 @@ const arr = [1511,
 1905,
 1625,
 1968];
-while (arr.length > 1) {
-    let item1 = arr.pop()
-    let item2 = arr.find((num) => item1 + num === 2020)
-    if (item2 != undefined) {
-        console.log(item1 * item2)
-        break
-    }
+//1 task
+// while (arr.length > 1) {
+//     let item1 = arr.pop()
+//     let item2 = arr.find((num) => item1 + num === 2020)
+//     if (item2 != undefined) {
+//         console.log(item1 * item2)
+//         break
+//     }
+//
+// }
+// answer - 445536
 
-}
-
+//2 task
+// while (arr.length > 1) {
+//     let item1 = arr.pop()
+//     let newArr = arr.filter((num) => item1 + num < 2020)
+//     while (newArr.length > 1) {
+//         let item2 = newArr.pop()
+//         let item3 = arr.find((num) => item1 + item2 + num === 2020)
+//         if (item3 != undefined) {
+//             console.log(item1 * item2 * item3)
+//             break
+//         }
+//     }
+// }
+//answer - 138688160
