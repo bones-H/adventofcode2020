@@ -17,7 +17,7 @@ let result = input
   //     coordinates.column = coordinates.column - item.length
   //   }
   // })
- //part one answer 230
+ // part one answer 230
 
 const slope = [
   {right: 1, down: 1},
