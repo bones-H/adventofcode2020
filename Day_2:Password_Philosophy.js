@@ -11,13 +11,13 @@ let result = str.split('\n').map(a => a.split(' ')).map(  item => {
   }
   }
 )
-part one answer 378
+// part one answer 378
 const validPasswords = result.filter(item => {
   const letterMatches = item.password.split('').filter( letter => letter === item.key);
   return letterMatches.length >= item.min && letterMatches.length <= item.max
 })
 
-part two answer 280
+//part two answer 280
 const validPasswords = result.filter((item) => {
   const letterMatches = item.password.split("").filter((letter, index) => {
     return (index === item.min && letter === item.key) ||
